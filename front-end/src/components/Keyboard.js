@@ -58,7 +58,22 @@ export default function Keyboard({
   useKeyPress("3", () => {
     playAudio({ path: serverConfig.audio3 });
   });
-  useKeyPress("4", () => {
+    useKeyPress("4", () => {
+    playAudio({ path: serverConfig.audio4 });
+  });
+    useKeyPress("5", () => {
+    playAudio({ path: serverConfig.audio5 });
+  });
+    useKeyPress("6", () => {
+    playAudio({ path: serverConfig.audio6 });
+  });
+    useKeyPress("7", () => {
+    playAudio({ path: serverConfig.audio7 });
+  });
+    useKeyPress("8", () => {
+    playAudio({ path: serverConfig.audio8 });
+  });
+  useKeyPress("9", () => {
     playAudio({ stop: true });
   });
 
